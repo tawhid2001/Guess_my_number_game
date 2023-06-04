@@ -16,9 +16,12 @@ document.querySelector('.check').addEventListener('click', function () {
     document.querySelector('.message').textContent = '⛔ No Number!';
   }
   // out of range input
-  else if (guess > 20 || guess < 1)
+  else if (guess > 20 || guess < 1) {
     document.querySelector('.message').textContent =
       '⚠ Out of range (give input again)';
+    document.querySelector('body').style.backgroundColor = '#FF0000';
+  }
+
   // input given but score is more than 1
   else if (guess && score > 1) {
     //different situations in the game
