@@ -23,5 +23,3 @@ A fun and interactive number guessing game built using JavaScript, HTML, and CSS
 ## How to Run:
 Simply open the `index.html` file in your browser, and start guessing!
 
-## License:
-This project is open-source and available under the MIT License.
